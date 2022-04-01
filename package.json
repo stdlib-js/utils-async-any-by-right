@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/utils-async-any-by-right",
+  "version": "0.0.0",
+  "description": "Test whether at least one element in a collection passes a test implemented by a predicate function, iterating from right to left.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-async-any-by-right.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "async",
+    "asynchronous",
+    "test",
+    "predicate",
+    "any",
+    "right",
+    "array.some",
+    "array.someright",
+    "iterate",
+    "collection",
+    "array-like",
+    "validate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
