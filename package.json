@@ -44,7 +44,7 @@
     "@stdlib/assert-is-plain-object": "^0.0.x",
     "@stdlib/assert-is-positive-integer": "^0.0.x",
     "@stdlib/constants-float64-pinf": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "debug": "^2.6.9"
