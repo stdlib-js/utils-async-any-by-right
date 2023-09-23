@@ -45,20 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-async-any-by-right
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import anyByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@deno/mod.js';
+var anyByRightAsync = require( '@stdlib/utils-async-any-by-right' );
 ```
 
 #### anyByRightAsync( collection, \[options,] predicate, done )
@@ -346,8 +356,8 @@ The function accepts the same `options` as `anyByRightAsync()`.
 
 ```javascript
 var resolve = require( 'path' ).resolve;
-import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@deno/mod.js';
-import anyByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@deno/mod.js';
+var readFile = require( '@stdlib/fs-read-file' );
+var anyByRightAsync = require( '@stdlib/utils-async-any-by-right' );
 
 var files = [
     resolve( __dirname, 'package.json' ),
@@ -422,7 +432,7 @@ anyByRightAsync( files, predicate, done );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -452,8 +462,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-async-any-by-right.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-async-any-by-right
 
-[test-image]: https://github.com/stdlib-js/utils-async-any-by-right/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/utils-async-any-by-right/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/utils-async-any-by-right/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/utils-async-any-by-right/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-async-any-by-right/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-async-any-by-right?branch=main
@@ -490,17 +500,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/async/any-by]: https://github.com/stdlib-js/utils-async-any-by/tree/deno
+[@stdlib/utils/async/any-by]: https://github.com/stdlib-js/utils-async-any-by
 
-[@stdlib/utils/any-by-right]: https://github.com/stdlib-js/utils-any-by-right/tree/deno
+[@stdlib/utils/any-by-right]: https://github.com/stdlib-js/utils-any-by-right
 
-[@stdlib/utils/async/every-by-right]: https://github.com/stdlib-js/utils-async-every-by-right/tree/deno
+[@stdlib/utils/async/every-by-right]: https://github.com/stdlib-js/utils-async-every-by-right
 
-[@stdlib/utils/async/for-each-right]: https://github.com/stdlib-js/utils-async-for-each-right/tree/deno
+[@stdlib/utils/async/for-each-right]: https://github.com/stdlib-js/utils-async-for-each-right
 
-[@stdlib/utils/async/none-by-right]: https://github.com/stdlib-js/utils-async-none-by-right/tree/deno
+[@stdlib/utils/async/none-by-right]: https://github.com/stdlib-js/utils-async-none-by-right
 
-[@stdlib/utils/async/some-by-right]: https://github.com/stdlib-js/utils-async-some-by-right/tree/deno
+[@stdlib/utils/async/some-by-right]: https://github.com/stdlib-js/utils-async-some-by-right
 
 <!-- </related-links> -->
 
