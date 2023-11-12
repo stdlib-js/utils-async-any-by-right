@@ -45,12 +45,12 @@
     "@stdlib/assert-is-positive-integer": "^0.1.0",
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "debug": "^2.6.9"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/fs-read-file": "^0.1.1",
     "@stdlib/utils-noop": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
