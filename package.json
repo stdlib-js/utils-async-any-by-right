@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-async-any-by-right",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Test whether at least one element in a collection passes a test implemented by a predicate function, iterating from right to left.",
   "license": "Apache-2.0",
   "author": {
@@ -38,20 +38,20 @@
   },
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.1.1",
-    "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/assert-is-collection": "^0.1.0",
-    "@stdlib/assert-is-function": "^0.1.1",
-    "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/assert-is-positive-integer": "^0.1.0",
-    "@stdlib/constants-float64-pinf": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.2.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
+    "@stdlib/assert-is-boolean": "^0.2.0",
+    "@stdlib/assert-is-collection": "^0.2.0",
+    "@stdlib/assert-is-function": "^0.2.0",
+    "@stdlib/assert-is-plain-object": "^0.2.0",
+    "@stdlib/assert-is-positive-integer": "^0.2.0",
+    "@stdlib/constants-float64-pinf": "^0.2.0",
+    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/types": "^0.3.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0",
     "debug": "^2.6.9"
   },
   "devDependencies": {
     "@stdlib/fs-read-file": "^0.1.1",
-    "@stdlib/utils-noop": "^0.1.1",
+    "@stdlib/utils-noop": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
