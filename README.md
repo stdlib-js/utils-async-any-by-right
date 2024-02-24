@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import anyByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@esm/index.mjs';
+import anyByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@v0.2.1-esm/index.mjs';
 ```
 
 #### anyByRightAsync( collection, \[options,] predicate, done )
@@ -352,7 +352,7 @@ The function accepts the same `options` as `anyByRightAsync()`.
 
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import anyByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@esm/index.mjs';
+import anyByRightAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-any-by-right@v0.2.1-esm/index.mjs';
 
 var files = [
     resolve( __dirname, 'package.json' ),
